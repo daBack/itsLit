@@ -12,6 +12,9 @@
 ## temp folders
 /.tmp/
 
+## .env
+.env
+
 # tsconfig.tsbuildinfo
 tsconfig.tsbuildinfo
 

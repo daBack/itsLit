@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html, css, TemplateResult } from 'lit';
 import { property, customElement } from 'lit/decorators.js';
 
 @customElement('db-app')
@@ -11,7 +11,7 @@ export class App extends LitElement {
     }
   `;
 
-  render() {
+  render(): TemplateResult {
     return html`
       <main>
         <p>Lit template</p>
