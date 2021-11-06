@@ -9,16 +9,15 @@
 /node_modules/
 /npm-debug.log
 
-## testing
-/coverage/
-
 ## temp folders
 /.tmp/
+
+# tsconfig.tsbuildinfo
+tsconfig.tsbuildinfo
 
 # build
 /_site/
 /dist/
-/out-tsc/
+/build/
 
-storybook-static
 custom-elements.json
